@@ -1,0 +1,54 @@
+form {
+    width: 600px;
+    background-color: #A9A9A9;
+    color: #000000;
+    padding: 20px;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select,
+form input[type='text'],
+form input[type='email'],
+form input[type='tel'],
+form textarea {
+    width: 300px;
+    height: 30px;
+    background-color: #DCDCDC;
+    color: #fff;
+    border: 1px solid #F5F5F5;
+}
+
+form select:focus,
+form input:focus,
+form textarea:focus {
+    background-color: #DCDCDC;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+form label[for*='male'],
+form label[for='agreement'] {
+    display: inline-block;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type='submit'] {
+    display: block;
+    background-color: #D8BFD8;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
